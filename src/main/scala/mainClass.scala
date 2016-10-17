@@ -18,3 +18,5 @@ object mainClass extends App {
   }
 
 }
+
+//kafka exceptions docs: https://kafka.apache.org/0100/javadoc/org/apache/kafka/common/KafkaException.html
