@@ -7,7 +7,7 @@ import org.apache.kafka.clients.producer.KafkaProducer
 import com.typesafe.config.ConfigFactory
 import com.typesafe.config.Config
 
-object KafkaProducer {
+object KafkaScalaProducer {
   def sendMsg(msg: String, conf: String): Unit = {
     val kafkaProducerConf = ConfigFactory.load(conf)
     // you need to provide java.util.Properties to KafkaProducer's constructor 

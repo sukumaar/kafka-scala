@@ -1,5 +1,5 @@
 
 
 object mainClass extends App{
-  KafkaProducer.sendMsg("bye","kafkaProducer")
+  KafkaScalaProducer.sendMsg("bye","kafkaProducer")
 }
